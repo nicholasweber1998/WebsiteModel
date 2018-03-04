@@ -1,0 +1,172 @@
+body {
+    background-color: #659DBD;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font:gorgia;
+
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+p {
+    color: white;
+
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #BC986A;
+    color: white;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul name {
+    list-style: none;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+li name{
+    float: left;
+    border-right:1px solid #bbb;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.HOMEimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+}
+.Engineimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.Transimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.Interimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.Exterimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.homepag{
+border: 1px solid white;
+background-color: #333;
+color: white;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+.enginepag{
+    font-family: Impact, fantasy;
+    border: 1px solid white;
+    background-color: #333;
+    color: white;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+
+}
+.transpag{
+    font-family: Impact, fantasy;
+    border: 1px solid white;
+    background-color: #333;
+    color: white;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+
+}
+.videop{
+    background-color: lightseagreen;
+}
+.vidword{
+    border-bottom: 6px solid lightseagreen;
+    background-color: #659DBD;
+    text-align: center;
+    margin-bottom: 50px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
